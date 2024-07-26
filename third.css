@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    background-image: url('pink.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.flex-box{
+    background-color: red; 
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.926);
+    border-radius: 40px;
+    margin: auto;
+    align-items: center;
+}
+.bo1{
+    margin-top: 30px;
+}
+.image1{
+    width: 200px;
+    height: 300px;
+    background-image: url('dad1.jpg');
+    background-position: top;
+    background-size: cover;
+}
+.image2{
+    width: 200px;
+    height: 300px;
+    background-image: url('mom1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.image3{
+    width: 200px;
+    height: 300px;
+    background-image: url('bro1.jpg');
+    background-size: cover;
+    background-position: 30%;
+}
+.image4{
+    width: 180px;
+    height: 320px;
+    background-image: url('me1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.but{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Bree Serif';
+    border: none;
+    background-color: black;
+    color: pink;
+    margin-top: 10px;
+}
